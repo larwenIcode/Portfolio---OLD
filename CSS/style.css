@@ -1,3 +1,21 @@
 .bgcolor{
     background-color: chocolate;
 }
+.bgcolor2 {
+    background-color:brown;
+}
+.bgcolor3 {
+    background-color:gold;
+}
+/* CSS spécifique du mobile */
+@media screen and (max-width:768px) {
+    .cardtitle {
+        width: 600px;
+    }
+}
+/* CSS spécifique du desktop */
+@media screen and (min-width:768px) {
+    .cardtitle {
+        width: 300px;
+    }
+}
