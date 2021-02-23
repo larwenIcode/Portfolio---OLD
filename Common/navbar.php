@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark-bg bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bgcolor">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><i class="bi bi-house"></i> Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,24 +7,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link" href="#"><i class="bi bi-file-person"></i>CV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mes Compétences</a>
+              <a class="nav-link" href="#"><i class="bi bi-check-circle"></i>Mes Compétences</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Mes Intérets</a>
+                <a href="#" class="nav-link"><i class="bi bi-heart"></i>Mes Intérets</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Mes Expériences</a>
+                <a href="#" class="nav-link"><i class="bi bi-award"></i>Mes Expériences</a>
             </li>
             <!--Partie admin-->
             <li class="nav-item">
-                <a href="#" class="nav-link">Admin</a>
+                <a href="#" class="nav-link"><i class="bi bi-code-square"></i>Admin</a>
             </li>
             <!--fin de partie admin-->
             <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link"><i class="bi bi-telephone-outbound"></i>Contact</a>
             </li>
           </ul>
         </div>
