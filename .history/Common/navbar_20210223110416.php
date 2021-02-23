@@ -20,7 +20,7 @@
             </li>
             <!--Partie admin-->
             <li class="nav-item">
-                <a href="#" class="nav-link">Admin</a>
+                <a href="#">Admin</a>
             </li>
             <!--fin de partie admin-->
             <li class="nav-item">

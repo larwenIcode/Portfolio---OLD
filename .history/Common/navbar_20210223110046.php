@@ -18,11 +18,6 @@
             <li class="nav-item">
                 <a href="#" class="nav-link">Mes Expériences</a>
             </li>
-            <!--Partie admin-->
-            <li class="nav-item">
-                <a href="#" class="nav-link">Admin</a>
-            </li>
-            <!--fin de partie admin-->
             <li class="nav-item">
                 <a href="#" class="nav-link">Contact</a>
             </li>
