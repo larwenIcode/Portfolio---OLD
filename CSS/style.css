@@ -19,3 +19,14 @@
         width: 300px;
     }
 }
+.titre {
+    height: 150px;
+    align-items: center;
+}
+.menutitre {
+    height: 450px;
+}
+.gradientbg {
+    background: rgb(28,202,216);
+    background: linear-gradient(90deg, rgba(28,202,216,1) 0%, rgba(244,91,105,1) 50%, rgba(7,79,87,1) 100%); 
+}
