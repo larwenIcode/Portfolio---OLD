@@ -10,7 +10,7 @@
               <a class="nav-link btn btn-info mx-2" href="CV.html"><i class="bi bi-file-person"></i>CV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-info mx-2" href="#"><i class="bi bi-check-circle"></i>Mes Compétences</a>
+              <a class="nav-link btn btn-info mx-2" href="Competences.html"><i class="bi bi-check-circle"></i>Mes Compétences</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link btn btn-info mx-2"><i class="bi bi-heart"></i>Mes Intérets</a>

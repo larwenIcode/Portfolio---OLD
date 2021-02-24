@@ -30,7 +30,7 @@
         </article>
         <article class="col-md-4 col-sm-12 offset-2">
             <div class="cardtitle text-center mx-auto bgcolor3 border border-dark rounded p-2">
-            <h4>Mes compétences</h4>
+            <h4><a href="Competences.html">Mes compétences</a></h4>
         </div>
         </article>
         </div>
