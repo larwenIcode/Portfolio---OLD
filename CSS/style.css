@@ -2,10 +2,10 @@
     background-color: chocolate;
 }
 .bgcolor2 {
-    background-color:brown;
+    background-color:#1ED269;
 }
 .bgcolor3 {
-    background-color:gold;
+    background-color:#691ED2;
 }
 /* CSS spécifique du mobile */
 @media screen and (max-width:768px) {
