@@ -1,12 +1,4 @@
-.bgcolor{
-    background-color: chocolate;
-}
-.bgcolor2 {
-    background-color:#1ED269;
-}
-.bgcolor3 {
-    background-color:#691ED2;
-}
+
 /* CSS spécifique du mobile */
 @media screen and (max-width:768px) {
     .cardtitle {
@@ -18,6 +10,16 @@
     .cardtitle {
         width: 300px;
     }
+}
+/* CSS En general */
+.bgcolor{
+    background-color: chocolate;
+}
+.bgcolor2 {
+    background-color:#1ED269;
+}
+.bgcolor3 {
+    background-color:#691ED2;
 }
 .titre {
     height: 150px;

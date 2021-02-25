@@ -31,10 +31,10 @@
     </section>
     <!-- exemple compétences 3 -->
     <section class="row my-5">
-        <article class="col-lg-2 col-md-6 col-sm-12 border border-dark rounded bgcolor3 offset-lg-3">
+        <article class="col-lg-3 col-md-6 col-sm-12 border border-dark rounded bgcolor3 offset-lg-3">
             <img src="#" alt="#">
         </article>
-        <article class="col-lg-2 col-md-6 col-sm-12 border border-dark rounded bgcolor3 offset-lg-1">
+        <article class="col-lg-3 col-md-6 col-sm-12 border border-dark rounded bgcolor3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum explicabo iste cum possimus numquam dignissimos inventore dolorum nulla vero dolore! Cumque veniam laborum alias impedit eius, ratione earum. Officiis, fuga!</p>
         </article>
     </section>

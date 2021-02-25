@@ -16,7 +16,7 @@
                 <a href="#" class="nav-link btn btn-info mx-2"><i class="bi bi-heart"></i>Mes Intérets</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link btn btn-info mx-2"><i class="bi bi-award"></i>Mes Expériences</a>
+                <a href="experiences.html" class="nav-link btn btn-info mx-2"><i class="bi bi-award"></i>Mes Expériences</a>
             </li>
             <!--Partie admin-->
             <li class="nav-item">
