@@ -2,13 +2,16 @@
 /* CSS spécifique du mobile */
 @media screen and (max-width:768px) {
     .cardtitle {
-        width: 600px;
+        width: auto;
     }
 }
 /* CSS spécifique du desktop */
 @media screen and (min-width:768px) {
     .cardtitle {
         width: 300px;
+    }
+    .menutitre {
+        height: 450px;
     }
 }
 /* CSS En general */
@@ -25,9 +28,7 @@
     height: 150px;
     align-items: center;
 }
-.menutitre {
-    height: 450px;
-}
+
 .gradientbg {
     background: rgb(28,202,216);
     background: linear-gradient(90deg, rgba(28,202,216,1) 0%, rgba(244,91,105,1) 50%, rgba(7,79,87,1) 100%); 
