@@ -2,7 +2,7 @@
 // Cette partie est à customiser
 $server = "localhost";
 $db = "Portfolio";
-$user = "admin";
+$user = "Admin";
 $passwd = "admin";
 // Fin de la partie customisable
 
