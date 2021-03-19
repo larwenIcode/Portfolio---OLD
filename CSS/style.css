@@ -33,6 +33,11 @@
     background: rgb(28,202,216);
     background: linear-gradient(90deg, rgba(28,202,216,1) 0%, rgba(244,91,105,1) 50%, rgba(7,79,87,1) 100%); 
 }
+.BDR /* Border Round */ {
+    border : 5px solid black;
+    border-radius: 30px;
+    padding: 30px;
+}
 /* CSS de la sidebar */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
