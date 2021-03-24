@@ -1,3 +1,6 @@
+<?php 
+session_unset();
+?>
 <main class="container-fluid">
     <!-- div des Erreurs et du logout-->
     <section class="row">
