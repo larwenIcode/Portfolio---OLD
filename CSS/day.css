@@ -53,4 +53,10 @@
     #sidebar ul.components {
         border-bottom: 1px solid #47748b;
     }
+    fieldset {
+        background-color:rgb(253, 188, 188);
+    }
+    #articleDisplay {
+        background-color:rgb(253, 188, 188);
+    }
 }

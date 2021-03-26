@@ -62,4 +62,14 @@
     #copyright {
         color:#fff;
     }
+    fieldset {
+        background-color:rgb(5, 16, 22);
+        color:#fff;
+    }
+    #articleDisplay {
+        background-color:rgb(5, 16, 22);
+    }
+    table {
+        color: #fff;
+    }
 }
