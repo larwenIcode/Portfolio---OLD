@@ -5,7 +5,7 @@ if ($_GET['page'] != 'Login') {
     include("Common/sidebar.php");
     include("Common/head.php");
 }
-$whitelist = array("Main","interets","experiences","CV","Contact","Competences","Login","Logout");
+$whitelist = array("Main","interets","experiences","CV","Contact","Competences","Login","Logout","Main2");
 if (isset($_SESSION['user'])) {
     array_push($whitelist, "Admin");
 }

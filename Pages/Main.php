@@ -1,7 +1,7 @@
 <main class="container-fluid px-md-5">
     <Section class="row my-md-5 titre">
         <div class="text-center bgcolor3 border border-dark rounded-pill col-md-6 offset-md-3 col-sm-12 p-4">
-            <h2>Bienvenue sur mon site</h2>
+            <h2 id="title">Bienvenue sur mon site</h2>
         </div>
     </Section>
     <section class="my-md-5 menutitre">

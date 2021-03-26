@@ -1,0 +1,56 @@
+/* CSS du mode Jour */
+@media (prefers-color-scheme: light) {
+    a {
+        color: #120524!important;
+    }
+    .bgcolor{
+        background-color: rgb(216, 193, 177);
+    }
+    .bgcolor2 {
+        background-color:#b6c9be;
+    }
+    .bgcolor3 {
+        background-color:#bbaecc;
+    }
+    .gradientbg {
+        background: rgb(197, 215, 216);
+        background: linear-gradient(90deg, rgba(197,215,216,1) 0%, rgb(248, 189, 194) 50%, rgb(87, 102, 104) 100%); 
+    }
+    .navbar {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .BDR {
+        border : 5px solid black;
+    }
+    #sidebar {
+        background: #bbaecc;
+    }
+    #sidebar .sidebar-header {
+        background: rgb(216, 197, 216);
+    }
+    a.article,a.article:hover {
+    background: rgb(192, 192, 192) !important;
+    color: rgb(0, 0, 0) !important;
+    }
+    a.download {
+        background: #fff;
+        color: #120524;
+    }
+    ul ul a {
+        background: rgb(207, 188, 174);
+    }
+    #sidebar ul li.active>a,a[aria-expanded="true"] {
+    color: #fff;
+    background: rgb(219, 193, 175);
+    }
+    #sidebar ul li a:hover {
+        color: #120524;
+        background: #fff;
+    }
+    #sidebar ul li a {
+        color: #120524;
+    }
+    #sidebar ul.components {
+        border-bottom: 1px solid #47748b;
+    }
+}

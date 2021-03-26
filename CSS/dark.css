@@ -1,0 +1,65 @@
+/*CSS pour mode Nuit */
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #fff!important;
+    }
+    .bgcolor{
+        background-color:rgb(41, 20, 6);
+    }
+    .bgcolor2{
+        background-color:#02180b;
+    }
+    .bgcolor3{
+        background-color:#0b0218;
+    }
+    .gradientbg {
+        background:rgb(1, 23, 24);
+        background:linear-gradient(rgba(1,23,24,1) 0%, rgb(26, 1, 3) 50%, rgb(2, 30, 34) 100%);
+    }
+    .navbar{
+        box-shadow:1px 1px 3px rgba(255, 255, 255, 1)
+    }
+    #sidebar {
+        background:#0b0218;
+    }
+    #sidebar .sidebar-header {
+        background:rgb(32, 2, 32)
+    }
+    #sidebar .ul-components {
+        background:1px solid #c6ecff; 
+    }
+    #sidebar h3 {
+        color:#fff;
+    }
+    #title {
+        color:#fff;
+    }
+    #sidebar ul li a {
+        color: #bbaecc;
+    }
+    #sidebar ul li a:hover {
+        color: #bbaecc;
+        background: rgb(0, 0, 0);
+    }
+    #sidebar ul li.active>a,a[aria-expanded="true"] {
+        color: #000;
+        background: #e48846;
+    }
+    ul ul a {
+        background: rgb(44, 20, 3);
+    }
+    a.download {
+        background: rgb(0, 0, 0);
+        color: #bbaecc;
+    }
+    a.article,a.article:hover {
+    background: rgb(31, 9, 2) !important;
+    color: rgb(255, 255, 255) !important;
+    }
+    .BDR {
+        border : 5px solid white;
+    }
+    #copyright {
+        color:#fff;
+    }
+}

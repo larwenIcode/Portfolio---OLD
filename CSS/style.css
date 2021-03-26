@@ -15,26 +15,11 @@
     }
 }
 /* CSS En general */
-.bgcolor{
-    background-color: chocolate;
-}
-.bgcolor2 {
-    background-color:#1ED269;
-}
-.bgcolor3 {
-    background-color:#691ED2;
-}
 .titre {
     height: 150px;
     align-items: center;
 }
-
-.gradientbg {
-    background: rgb(28,202,216);
-    background: linear-gradient(90deg, rgba(28,202,216,1) 0%, rgba(244,91,105,1) 50%, rgba(7,79,87,1) 100%); 
-}
 .BDR /* Border Round */ {
-    border : 5px solid black;
     border-radius: 30px;
     padding: 30px;
 }
@@ -64,7 +49,6 @@ a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-btn {
@@ -97,7 +81,6 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #691ED2;
     transition: all 0.3s;
 }
 
@@ -148,7 +131,6 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: chocolate;
 }
 
 #sidebar .sidebar-header strong {
@@ -158,7 +140,6 @@ span {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul li a {
@@ -167,20 +148,11 @@ span {
     display: block;
 }
 
-#sidebar ul li a:hover {
-    color: #691ED2;
-    background: #fff;
-}
 
 #sidebar ul li a i {
     margin-right: 10px;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: #fff;
-    background: chocolate;
-}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -197,7 +169,6 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: chocolate;
 }
 
 ul.CTAs {
@@ -212,16 +183,6 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.download {
-    background: #fff;
-    color: #691ED2;
-}
-
-a.article,
-a.article:hover {
-    background: chocolate !important;
-    color: rgb(0, 0, 0) !important;
-}
 
 /* ---------------------------------------------------
     CONTENT STYLE

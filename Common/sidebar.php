@@ -17,7 +17,7 @@
 if (isset($_SESSION['user'])) {
     echo
     "<li id='Admin'>
-    <a href='#'>
+    <a href='Admin.html'>
     <i class='bi bi-code-square'></i>
     Admin
     </a>
