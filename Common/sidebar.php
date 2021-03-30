@@ -1,7 +1,7 @@
 <div class="wrapper">
 <!-- Sidebar  -->
 <nav id="sidebar">
-<div class="sidebar-header">
+<div class="sidebar-header" id="sidebarCollapse">
 <h3>Menu PortFolio</h3>
 <strong>MP</strong>
 </div>
@@ -85,12 +85,3 @@ if (isset($_SESSION['user'])) {
 
 <!-- Page Content  -->
 <div id="content">
-<nav class="navbar navbar-expand-lg navbar-light bgcolor">
-<div class="container-fluid">
-<button type="button" id="sidebarCollapse" class="btn btn-info">
-<i class="fas fa-align-left"></i>
-<span>Toggle Sidebar</span>
-</button>
-</a>
-</div>
-</nav>
