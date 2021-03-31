@@ -17,5 +17,13 @@
 </main>
 <!-- Fetch les données de mon api en asynchrone -->
 <script>
-
+    fetch("api.php?page=contentInterets")
+        .then (
+            (Response) => Response.text()
+        )
+        .then (
+            (datas) => {
+                
+            }
+        )
 </script>
