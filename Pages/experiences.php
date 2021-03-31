@@ -1,38 +1,59 @@
+<?php 
+  	$Query = $pdo->query("SELECT * FROM Article WHERE `Article`.`PageId` = 3")->fetchAll(\PDO::FETCH_ASSOC);
+    $index = 0;
+?>
 <main class="container-fluid">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+    <div id="carouselExperiences" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <!-- Début de la Partie dynamique -->
+          <?php 
+            foreach ($Query as $key) {
+              $slide = $index +1;
+              if ($index == 0) {
+                echo "<button type='button' data-bs-target='#carouselExperiences' data-bs-slide-to='".$index."' class='active' aria-current='true' aria-label='Slide ".$slide."'></button>";
+              } else {
+                echo "<button type='button' data-bs-target='#carouselExperiences' data-bs-slide-to='".$index."' aria-label='Slide ".$slide."'></button>";
+              }
+              $index = $index +1;
+            }
+            $index = 1;
+          ?>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="CSS/images/energy.jpg" class="d-block w-100 img-fluid" alt="image d'éolienne">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Service civique</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+        <?php 
+          foreach ($Query as $key) {
+            if ($index == 1) {
+              echo "
+              <div class='carousel-item active'>
+              <img src='".$key['imagelink']."' class='d-block w-100 img-fluid' alt='image qui décrit L'article du carousel'>
+              <div class='carousel-caption d-none d-md-block'>
+                <h5>".$key['nom']."</h5>
+                <p>".$key['Article']."</p>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="CSS/images/code.jpg" class="d-block w-100" alt="image de code HTML">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>stage sur le projet Coeur de ville</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              ";
+            } else {
+              echo 
+              "
+              <div class='carousel-item'>
+              <img src='".$key['imagelink']."' class='d-block w-100' alt='image qui décrit L'article du carousel'>
+              <div class='carousel-caption d-none d-md-block'>
+                <h5>".$key['nom']."</h5>
+                <p>".$key['Article']."</p>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="CSS/images/server.jpg" class="d-block w-100" alt="image d'un server">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Stage en informatique sur le collège jean lurçat</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
+              ";
+            }
+          $index++;  
+          }
+        ?>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+        <!-- fin de la partie dynamique-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExperiences"  data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExperiences"  data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
