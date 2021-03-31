@@ -14,6 +14,10 @@
     }
 }
 /* CSS En general */
+.imageArticle {
+    width: 360px;
+    height: 300px;
+}
 .titre {
     height: 150px;
     align-items: center;
