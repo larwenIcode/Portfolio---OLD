@@ -1,5 +1,5 @@
 <main class="container-fluid">
-    <section class="row">
+    <section class="row" id="diaporama">
         
     </section>    
     <section class="row justify-content-center">
@@ -15,3 +15,7 @@
     <!-- Fin du controlleur du contenu -->
     </section>
 </main>
+<!-- Fetch les données de mon api en asynchrone -->
+<script>
+
+</script>
