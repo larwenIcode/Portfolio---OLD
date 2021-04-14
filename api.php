@@ -1,6 +1,7 @@
 <?php
 header("content-type: application/json");
 
+include('utils/db.php');
 // API autorisées (configuration à sortir dans un autre fichier PHP)
 $whitelist = array('contentInterets');
 

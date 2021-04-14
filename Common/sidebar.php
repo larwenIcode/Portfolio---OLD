@@ -1,7 +1,7 @@
 <div class="wrapper">
 <!-- Sidebar  -->
 <nav id="sidebar">
-<div class="sidebar-header" id="sidebarCollapse">
+<div class="sidebar-header sidebarCollapse">
 <h3>Menu PortFolio</h3>
 <strong>MP</strong>
 </div>
