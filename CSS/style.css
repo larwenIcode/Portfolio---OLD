@@ -132,10 +132,6 @@ span {
     transform: translateX(50%);
 }
 
-#sidebar .sidebar-header {
-    padding: 20px;
-}
-
 #sidebar .sidebar-header strong {
     display: none;
     font-size: 1.8em;

@@ -2,8 +2,10 @@
 <!-- Sidebar  -->
 <nav id="sidebar">
 <div class="sidebar-header sidebarCollapse">
-<h3>Menu PortFolio</h3>
-<strong>MP</strong>
+<picture>
+    <source srcset="CSS/images/Mode Nuit.png" media="(prefers-color-scheme: dark)">
+    <img src="CSS/images/Mode Normal.png" alt="Logo" width="80px">
+</picture>
 </div>
 
 <ul class="list-unstyled components">
