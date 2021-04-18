@@ -1,13 +1,16 @@
 <?php
-if (isset($_POST)) {
+if (isset($_POST['Obj'])) {
     $destinataire = "assosottorri-2503@yopmail.com";
     $sujet = $_POST['Obj'];
     $message = $_POST['Msg'];
+    $message = $_POST['Nom'].' '. $_POST['Prenom']. '' .$message;
     $header = array(
         'From' => $_POST['Mail'],
         'X-Mailer' => 'PHP/' . phpversion(),
     );
-    mail($destinataire, $sujet, $message, $header);
+    if (mail($destinataire, $sujet, $message, $header)) {
+        return;
+    }
 }
 ?>
 <main class="container-fluid">
