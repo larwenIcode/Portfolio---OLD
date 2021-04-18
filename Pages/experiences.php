@@ -10,9 +10,16 @@
             foreach ($Query as $key) {
               $slide = $index +1;
               if ($index == 0) {
-                echo "<button type='button' data-bs-target='#carouselExperiences' data-bs-slide-to='".$index."' class='active' aria-current='true' aria-label='Slide ".$slide."'></button>";
+                echo `<button type='button' 
+                data-bs-target='#carouselExperiences' 
+                data-bs-slide-to='".$index."' 
+                class='active' aria-current='true' 
+                aria-label='Slide ".$slide."'></button>`;
               } else {
-                echo "<button type='button' data-bs-target='#carouselExperiences' data-bs-slide-to='".$index."' aria-label='Slide ".$slide."'></button>";
+                echo "<button type='button' 
+                data-bs-target='#carouselExperiences' 
+                data-bs-slide-to='".$index."' 
+                aria-label='Slide ".$slide."'></button>";
               }
               $index = $index +1;
             }

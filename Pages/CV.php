@@ -1,6 +1,7 @@
 <?php 
 $Query = $pdo->query("SELECT * FROM Article WHERE `Article`.`PageId` = 1 AND `Article`.`id` <= 4")->fetchAll(\PDO::FETCH_ASSOC);
 $Query2 = $pdo->query("SELECT * FROM Article WHERE `Article`.`PageId` = 1 AND `Article`.`id` > 4")->fetchAll(\PDO::FETCH_ASSOC);
+/* Ajouter un index pour eviter de faire 2 requete PDO */
 ?>
 <main class="container-fluid">
   <section class="row d-flex justify-content-center">
