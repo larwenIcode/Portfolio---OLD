@@ -1,15 +1,21 @@
 <main class="container-fluid">
-    <section class="row" id="diaporama">
+    <section class="row g-3" id="diaporama">
         
     </section>    
     <section class="row justify-content-center">
     <!-- Controlleur du contenu -->
-    <article class="col-sm-12 col-lg-4 d-flex justify-content-center">
+    <article class="col-sm-12 col-lg-2 d-flex justify-content-evenly m-5">
+        <button class="btn btn-info" id="precedent">
+            <i class="bi bi-caret-left-fill"></i>
+        </button>
         <button class="btn btn-success" id="play">
             <i class="bi bi-play-fill"></i>
         </button>
         <button class="btn btn-danger" id="pause">
             <i class="bi bi-pause-fill"></i>
+        </button>
+        <button class="btn btn-info" id="suivant">
+            <i class="bi bi-caret-right-fill"></i>
         </button>
     </article>
     <!-- Fin du controlleur du contenu -->
