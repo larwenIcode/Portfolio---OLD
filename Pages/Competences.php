@@ -17,9 +17,12 @@
 <!-- exemple compétences 1 -->
 <?php 
 	foreach ($Query as $key) {
+
 		if ($index == 1) {
 			echo "
-			<section class='row container-fluid my-5'>
+			<section 
+			style='background-image: url(".$key['imagelink'].")' 
+			class='row container-fluid my-5'>
 			<article class='col-lg-3 col-md-6 col-sm-12 border border-dark rounded bgcolor3'>
 				<img src='".$key['imagelink']."' alt='Image qui décrit l'article' class='imageArticle'>
 			</article>
@@ -32,7 +35,9 @@
 		}
 		if ($index == 2) {
 			echo "
-			<section class='row container-fluid my-5'>
+			<section 
+			style='background-image: url(".$key['imagelink'].")' 
+			class='row container-fluid my-5'>
 			<article class='col-lg-3 col-md-6 col-sm-12 border border-dark rounded bgcolor3 offset-lg-6'>
 				<img src='".$key['imagelink']."' alt='Image qui décrit l'article' class='imageArticle'>
 			</article>
@@ -45,7 +50,9 @@
 		}
 		if ($index == 3) {
 			echo "
-			<section class='row container-fluid my-5'>
+			<section 
+			style='background-image: url(".$key['imagelink'].")' 
+			class='row container-fluid my-5'>
 			<article class='col-lg-3 col-md-6 col-sm-12 border border-dark rounded bgcolor3 offset-lg-3'>
 				<img src='".$key['imagelink']."' alt='Image qui décrit l'article' class='imageArticle'>
 			</article>
