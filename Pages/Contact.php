@@ -1,7 +1,19 @@
+<?php
+if (isset($_POST)) {
+    $destinataire = "assosottorri-2503@yopmail.com";
+    $sujet = $_POST['Obj'];
+    $message = $_POST['Msg'];
+    $header = array(
+        'From' => $_POST['Mail'],
+        'X-Mailer' => 'PHP/' . phpversion(),
+    );
+    mail($destinataire, $sujet, $message, $header);
+}
+?>
 <main class="container-fluid">
     <section class="row d-flex justify-content-center">
         <article class="border border-dark border-4 rounded col-sm-12 col-md-8 col-lg-4 bgcolor3">
-            <form action="#" method="post" class="text-center container-fluid">
+            <form action="Contact.html" method="post" class="text-center container-fluid">
                 <div class="row">
                 <label for="Nom" class="fs-4">Nom :</label>
                 <input type="text" name="Nom" id="Nom" required><br>
